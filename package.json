@@ -5,7 +5,7 @@
 	"main": "deck.mdx",
 	"scripts": {
 		"start": "mdx-deck deck.mdx --port 3000",
-		"build": "mdx-deck build deck.mdx --title 'P5 Experiments",
+		"build": "mdx-deck build deck.mdx --title 'P5 Experiments'",
 		"predeploy": "npm run build",
 		"deploy": "surge dist --domain https://p5-experiments.surge.sh",
 		"postdeploy": "opn https://p5-experiments.surge.sh"
